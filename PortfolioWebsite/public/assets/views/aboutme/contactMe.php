@@ -7,13 +7,56 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" type = "text/css" href="assets/styles/styleLight.css" id="colorTheme"> 
         
-        <title>Melanie Ballard</title>
+        <title>Contact Me</title>
     </head>
 
     <body class="container-fluid h-100 d-flex flex-column p-0">
         <header id="headerContainer"></header>
 
-        
+        <div class="container-fluid mt-5 mb-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 mt-5 text-center">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="form-group col-6 col-md-3">
+                            <label for="inputFirstName">First Name</label>
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <label for="inputLastName">Last Name</label>
+                            <input type="text" class="form-control" for="inputLastName" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="form-group col-md-6">
+                            <label for="inputHeader">Header</label>
+                            <input type="text" class="form-control" id="inputHeader" placeholder="Re: Application">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="form-group col-md-6">
+                            <label for="inputMessage">Message</label>
+                            <textarea type="text" class="form-control" rows="5" id="inputMessage" placeholder="Hello Melanie..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-1">
+                        <div class="col-12 col-md-6">
+                            <button class="btn btn-primary" type="submit" id="sendEmail">Send Email</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

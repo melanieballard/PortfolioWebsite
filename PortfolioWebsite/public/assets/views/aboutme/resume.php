@@ -7,7 +7,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" type = "text/css" href="assets/styles/styleLight.css" id="colorTheme"> 
         
-        <title>Melanie Ballard</title>
+        <title>Resume</title>
     </head>
 
     <body class="container-fluid h-100 d-flex flex-column p-0">
