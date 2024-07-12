@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', sans-serif;
+    background-color: black;
+    color: #c8a3eb;
+}
+
+
+.container-fluid {
+    background-color: black;
+    padding: 0;
+}
+
+.center {
+    width: 100%;
+    padding: 20px;
+    background-color: #333; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+    border-radius: 8px;
+}
+
+form#usernameForm {
+    max-width: 400px; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: fit-content;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #222; 
+    color: white; 
+}
+
+button {
+    background-color: #c8a3eb; 
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #997db4; 
+}
+
+label {
+    color: #ccc; 
+}
+
+#playlistList {
+    padding: 0; 
+    margin: 15px 0 0 0; 
+    max-height: 400px; 
+    overflow-y: scroll; 
+    background-color: #333; 
+    border-radius: 8px; 
+    width: 100%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+}
+
+a{
+    text-decoration: none;
+    color: #c8a3eb;
+}
+
+ul {
+    text-align: center; 
+    padding-left: 0; 
+}
+
+li {
+    margin-top: 10px; 
+    color: #c8a3eb;
+    text-decoration: none;
+    list-style-type: none; 
+}
+
+#trackList {
+    color: #c8a3eb; 
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 8px;
+    min-width: 300px; 
+}
+
+#playlistList li:hover {
+    color: #997db4; 
+}
