@@ -21,7 +21,7 @@
 
             </div>
             <div class="col-12 col-md-6 text-center justify-content-center mt-3">
-                <a href='https://open.spotify.com' class="btn btn-primary" role="button" aria-pressed="true" id="openSpotify">View In Spotify</a>
+                <a href='https://open.spotify.com' target="_blank" class="btn btn-primary" role="button" aria-pressed="true" id="openSpotify">View In Spotify</a>
                 <a href='/success' class="btn btn-secondary" role="button" aria-pressed="true" id="openSpotify">Generate Again</a>
             </div>
         </div>

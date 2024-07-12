@@ -53,4 +53,8 @@ $routes = [
         'controller' => MainController::class,
         'GET' => 'contactMe'
     ],
+    'email' => [
+        'controller' => UserController::class,
+        'POST' => 'sendEmail'
+    ]
 ];

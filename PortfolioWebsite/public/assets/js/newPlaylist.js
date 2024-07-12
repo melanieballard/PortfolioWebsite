@@ -2,7 +2,7 @@ $(document).ready(function() {
     var tracks = JSON.parse(localStorage.getItem('newTracks')); //get tracks for new playlist
     //check if response is array
     if (Array.isArray(tracks)) {
-        var content = '<ul class="list-unstyled">';
+        var content = '<ul class="list-unstyled m-0">';
         //append track info to list
         tracks.forEach(function(track) {
             content += '<li>' + track.track + ' - ' + track.artist + '</li>';

@@ -10,6 +10,7 @@ $(document).ready(function(){
             data: {username: username},
             success: function(data){
                 console.log(data);
+                localStorage.removeItem('playlists');
                 window.location.href = '/login'; //redirect to login page
             },
             error: function(xhr, status, error){

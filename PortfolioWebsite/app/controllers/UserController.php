@@ -21,4 +21,13 @@ class UserController extends Controller
     public function newPlaylist(){
         include '../public/assets/views/spotify/recPlaylist.php'; //show reccomended playlist
     }
+    public function sendEmail(){
+
+        if(isset($_POST['formData'])){
+
+            $user = new User();
+            $user->email($_POST);
+            
+        }
+    }
 }

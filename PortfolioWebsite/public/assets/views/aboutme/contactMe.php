@@ -20,33 +20,33 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <form>
+                <form id="contactForm">
                     <div class="row justify-content-center">
                         <div class="form-group col-6 col-md-3">
                             <label for="inputFirstName">First Name</label>
-                            <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+                            <input type="text" class="form-control" id="inputFirstName" name="firstName" placeholder="First name">
                         </div>
                         <div class="col-6 col-md-3">
                             <label for="inputLastName">Last Name</label>
-                            <input type="text" class="form-control" for="inputLastName" placeholder="Last name">
+                            <input type="text" class="form-control" id="inputLastName" name="lastName" placeholder="Last name">
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="form-group col-md-6">
                             <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com">
+                            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="example@example.com">
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="form-group col-md-6">
-                            <label for="inputHeader">Header</label>
-                            <input type="text" class="form-control" id="inputHeader" placeholder="Re: Application">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" class="form-control" id="inputSubject" name="subject" placeholder="Re: Application">
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="form-group col-md-6">
                             <label for="inputMessage">Message</label>
-                            <textarea type="text" class="form-control" rows="5" id="inputMessage" placeholder="Hello Melanie..."></textarea>
+                            <textarea type="text" class="form-control" rows="5" id="inputMessage" name="message" placeholder="Hello Melanie..."></textarea>
                         </div>
                     </div>
                     <div class="row justify-content-center mt-1">
@@ -60,9 +60,11 @@
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/navbar.js"></script>
+        <script src="assets/js/email.js"></script>
         
     </body>
 </html>
