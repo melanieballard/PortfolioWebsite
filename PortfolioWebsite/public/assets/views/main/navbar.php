@@ -25,7 +25,7 @@
                         <a class="nav-link" href="https://www.depop.com/melb2123/">Depop</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a class="nav-link" href="/contact">Contact Me</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
